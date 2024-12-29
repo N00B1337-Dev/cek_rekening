@@ -59,6 +59,7 @@
                             </div>
 
                             <button type="button" id="cek" class="btn btn-primary">Cek Sekarang</button>
+                            <a href="https://apidev.biz.id/" target="_blank" class="btn btn-info">Api Document</a>
                         </form>
                     </div>
                 </div>
