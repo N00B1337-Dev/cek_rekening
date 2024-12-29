@@ -24,24 +24,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastr@2.1.4/build/toastr.min.css">
 
 </head>
-
-<body>
-    <div class="row">
-        <div class="d-flex justify-content-center">
-
-            <div class="col-lg-6 col-xs-12 col-12 mt-5">
+<body style="background-color: aqua;">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Cek Rekening dan Ewallet</h5>
-                        <div id="alert">
-
-                        </div>
+                        <div id="alert"></div>
                         <form action="">
                             <div class="mb-3">
                                 <label for="">Apikey</label>
                                 <input type="text" class="form-control" name="apikey" value="d747ccaac52611efa0f6bc24113c8a5eg0h3D0kumv">
                             </div>
-
                             <div class="mb-3">
                                 <label for="">Jenis</label>
                                 <select name="jenis" id="" class="form-control">
@@ -50,21 +45,30 @@
                                     <option value="BANK">BANK</option>
                                 </select>
                             </div>
-
                             <div class="mb-3">
                                 <label for="">Bank/Ewallet</label>
-                                <select name="banklist" id="" class="form-control">
-                                </select>
+                                <select name="banklist" id="" class="form-control"></select>
                             </div>
-
                             <div class="mb-3">
                                 <label for="">Target</label>
                                 <input type="text" class="form-control" name="target">
                             </div>
-
                             <button type="button" id="cek" class="btn btn-primary">Cek Sekarang</button>
                             <a href="https://apidev.biz.id/" target="_blank" class="btn btn-info">Api Document</a>
                         </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 mt-4 mt-lg-0">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Informasi</h5>
+                        <p>API cek nomor rekening dan API cek nomor ewallet otomatis 24 jam</p>
+                        <p>API ini digunakan untuk mengecek nomor rekening dan nomor ewallet secara otomatis</p>
+                        <p>API ini menggunakan apikey untuk mengaksesnya</p>
+                        <p>API ini menggunakan metode GET</p>
+                        <p>API ini menggunakan format json</p>
+                        <p>api cek rekening, cek ewallet, cek bank, cek nomor rekening, cek pemilik rekening, api cek pemilik nomor ewallet, api</p>
                     </div>
                 </div>
             </div>
